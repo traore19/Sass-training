@@ -1,0 +1,66 @@
+.new {
+  color: #ff7b29;
+  font-weight: bold; }
+  .new span {
+    text-transform: uppercase; }
+
+.portfolio {
+  border: 1px solid #9799a7; }
+  .portfolio ul {
+    list-style: none; }
+  .portfolio li {
+    float: left; }
+
+div {
+  font-family: Baskerville, palatino, serif;
+  font-style: italic;
+  font-weight: normal; }
+
+.container {
+  width: 960px; }
+  @media screen and (max-width: 960px) {
+    .container {
+      width: 100%; } }
+
+a {
+  color: #0087cc; }
+  a:hover {
+    color: #ff7b29; }
+
+.btn {
+  background: linear-gradient(#fff, #9799a7); }
+  .no-cssgradients .btn {
+    background: url("gradient.png") 0 0 repeat-x; }
+
+/* normal comment */
+div {
+  background: #333; }
+
+strong {
+  display: block;
+  width: 46px;
+  width: 34px;
+  width: 240px;
+  width: 4px;
+  width: 100px/10;
+  width: 10px;
+  width: 10;
+  width: 10px;
+  width: -5px;
+  width: 960px;
+  width: 250%;
+  width: 3px;
+  width: 3px;
+  width: 2px;
+  width: 2.5px;
+  color: rgba(142, 198, 63, 0.25);
+  color: rgba(142, 198, 63, 0.25);
+  color: #f4ffa5;
+  color: #ffff7e;
+  color: rgba(1, 1, 0, 0.75);
+  color: black;
+  color: #cccccc;
+  color: #c7e39f;
+  color: #3cff3f; }
+
+/*# sourceMappingURL=index.css.map */

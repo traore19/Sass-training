@@ -1,0 +1,77 @@
+.new
+    color: #ff7b29
+    font-weight: bold
+    span
+        text-transform: uppercase
+.portfolio
+    border: 1px solid #9799a7
+    ul
+        list-style: none
+    li
+        float: left
+div
+    font:
+        family: Baskerville,palatino,serif
+        style: italic
+        weight: normal
+.container
+    width: 960px
+    @media screen and (max-width: 960px)
+        width: 100%
+a 
+    color: #0087cc
+    &:hover
+        color: #ff7b29
+.btn
+    background: linear-gradient(#fff, #9799a7)
+    .no-cssgradients &
+        background: url("gradient.png") 0 0 repeat-x
+
+/* normal comment */
+div
+    background: #333
+    // omitted comment
+strong
+    display: block
+    width: 40px + 6
+    width: 40px - 6
+    width: 40px * 6
+    width: 40px % 6
+    width: 100px / 10
+    width: (100px / 10)
+    width: (100px / 10px)
+    $width: 100px
+    width: $width / 10
+    width: 5px - 100px / 10
+    $grid: 16
+    $column: 40px
+    $gutter: 20px
+    $container: ($column * $grid) + ($gutter * $grid)
+    width: $container
+    width: percentage(2.5)
+    width: round(2.5px)
+    width: ceil(2.5px)
+    width: floor(2.5px)
+    width: abs(-2.5px)
+    color: rgba(#8ec63f, .25)
+    $green: #8ec63f
+    color: rgba($green, .25)
+    color: #8ec63f + #666
+    color: #8ec63f * 2
+    color: rgba(142, 198, 63, .75) / rgba(255, 255, 255, .75)
+    color: invert(#fff)
+    color: complement(#ccc)
+    color: mix(#fff,#8ec63f)
+    color: change-color(#8ec63f, $red: 60, $green: 255)
+   
+
+    
+
+    
+
+
+    
+
+
+
+
